@@ -2,6 +2,12 @@
   "name": "ssynowiec.pl",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssynowiec-pl/ssynowiec.pl"
+  },
+  "author": "Stanisław Synowiec | ssynowiec.pl (https://ssynowiec.pl)",
+  "homepage": "https://ssynowiec.pl",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
