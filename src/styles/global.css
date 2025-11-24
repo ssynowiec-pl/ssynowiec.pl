@@ -1,7 +1,24 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --font-sans: "Inter", sans-serif;
   --font-quicksand: "Quicksand", sans-serif;
   --font-spartan: "League Spartan", sans-serif;
+}
+
+:root {
+  --color-primary: #000;
+  --color-background: #f1efe7;
+}
+
+.dark {
+  --color-primary: #f1efe7;
+  --color-background: #000;
+}
+
+html {
+  background-color: var(--color-background);
+  color: var(--color-primary);
 }
