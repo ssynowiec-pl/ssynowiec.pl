@@ -1,1 +1,7 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@theme {
+	--font-sans: 'Inter', sans-serif;
+	--font-quicksand: 'Quicksand', sans-serif;
+	--font-spartan: 'League Spartan', sans-serif;
+}
