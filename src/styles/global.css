@@ -21,4 +21,5 @@
 html {
   background-color: var(--color-background);
   color: var(--color-primary);
+  font-family: "Quicksand", sans-serif;
 }
